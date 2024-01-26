@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+        <nav>
+            <ul>
+                <li><a href="about.html" class="nav-link">About Me</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="content-container">
+        <!-- Content will be dynamically loaded here -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            // Attach click event to navigation links
+            $('.nav-link').click(function(e) {
+                e.preventDefault(); // Prevent default link behavior
+                var pageUrl = $(this).attr('href'); // Get the page URL
+                // Load content dynamically into the content container
+                $('#content-container').load(pageUrl);
+            });
+        });
+    </script>
+</body>
+</html>
