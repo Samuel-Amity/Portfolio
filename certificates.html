@@ -1,34 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Your Certificates</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            /* Optional: Add a background color */
+        }
+
+        .certificates-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            /* Adjust as needed */
+        }
+
+        .certificate-container {
+            width: 48%;
+            /* Adjust as needed */
+            margin: 10px;
+            margin-bottom: 40px;
+            text-align: center;
+            box-sizing: border-box;
+            background-color: #fff;
+            /* Optional: Add a background color */
+            padding: 15px;
+            border: none;
+            border-radius: 20px;
+            /* Optional: Add a border around each certificate */
+        }
+
+        .certificate-image {
+            border-radius: 10px;
+            max-width: 100%;
+            max-height: 100%;
+            /* Ensure images don't exceed container height */
+            border: 2px solid #333;
+            /* Optional: Add a border around each certificate */
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
+
 <body>
-    <iframe width="420" height="315"
-    src="images/foundationsql_itvedant.jpg">
-    </iframe>
-    <iframe width="420" height="315"
-src="images/foundationsql_itvedant.jpg">
-</iframe>
-<iframe width="420" height="315"
-src="images/foundationsql_itvedant.jpg">
-</iframe>
-<iframe width="500" height="315"
-src="images/foundationsql_itvedant.jpg">
-</iframe>
-<iframe width="420" height="315"
-src="images/foundationsql_itvedant.jpg">
-</iframe>
-<iframe width="420" height="315"
-src="images/foundationsql_itvedant.jpg">
-</iframe>
-<iframe width="420" height="315"
-src="images/foundationsql_itvedant.jpg">
-</iframe>
-<iframe width="420" height="315"
-src="images/foundationsql_itvedant.jpg">
-</iframe>
+    <div class="certificates-container">
+        <div class="certificate-container">
+            <img class="certificate-image" src="images/foundationsql_itvedant.jpg" alt="Certificate 1">
+            <p><b>Presented by: Itvedant Pvt LTD</b></p>
+            <p>
+            <ol><p>Skills :</p>
+                <li>MySQL</li>
+                <li> Realtional Database Management System (R-DBMS)</li>
+            
+            </ol>
+            </p>
+        </div>
+
+        <div class="certificate-container">
+            <img class="certificate-image" src="images/cert_life_skills_page-0001.jpg" alt="Certificate 2">
+            <p><b>Presented by: Amity University</b></p>
+            <p>
+            <ol>
+                <p>Skills :</p>
+                <li>Life Skills</li>
+                <li>Public Speaking</li>
+                <li>· Professional Communication</li>
+            </ol>
+            </p>
+        </div>
+
+        <div class="certificate-container">
+            <img class="certificate-image" src="images/aws.png" alt="Certificate 3">
+            <p><b>Presented by: Simplilearn & Google</b></p>
+            <p>
+            <ol>
+                <p>Skills :</p>
+                <li>AWS Security</li>
+                <li>Analyzing AWS cloud</li>
+
+            </ol>
+            </p>
+        </div>
+
+        <div class="certificate-container">
+            <img class="certificate-image" src="images/gogl.png" alt="Certificate 4">
+            <p><b>Presented by: Simplilearn & Amazon</b></p>
+            <p>
+            <ol>
+                <p>Skills :</p>
+                <li>Cloud Security</li>
+                <li>Google Cloud Platform (GCP)</li>
+            </ol>
+            </p>
+        </div>
+    </div>
 </body>
+
 </html>
