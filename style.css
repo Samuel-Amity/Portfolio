@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #3133b9;
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -54,6 +54,13 @@ h1, h2 {
     margin-bottom: 0.5em;
 }
 
+.sam{
+    color: rgb(42, 165, 89);
+}
+.web{
+    color: red;
+}
+
 section {
     margin: 2em;
 }
@@ -71,7 +78,7 @@ ul {
 }
 
 footer {
-    background-color: #333;
+    background-color: #c0d41c;
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -94,3 +101,10 @@ iframe {
     display: block;
     border: none;
 }
+
+
+/* project */
+
+/* .last{
+    padding-bottom: 10%;
+} */

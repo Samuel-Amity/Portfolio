@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #3486b6;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-details {
+            margin-bottom: 20px;
+        }
+
+        .social-links a {
+            margin-right: 10px;
+            color: #ebe8e8;
+            text-decoration: none;
+        }
+    </style>
 </head>
+
 <body>
-    C
+
+    <header>
+        <h1>Contact Me</h1>
+
+        <div class="contact-details">
+            <p>Feel free to reach out to me through the following channels:</p>
+            <div class="social-links">
+             <i class="fa-brands fa-github"></i>   <a href="https://github.com/Samuel-Amity" target="_blank"><i class="fa-brands fa-github fa-fade">GitHub</i></a>
+                <a href="https://www.linkedin.com/in/Samuel-Delhi/" target="_blank">LinkedIn</a>
+                <!-- Add more social media links as needed -->
+            </div>
+        </div>
+    </header>
+
+    <section>
+
+
+        <form action="#" method="post" id="contactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
 </body>
+
 </html>
