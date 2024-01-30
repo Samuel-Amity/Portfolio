@@ -3,28 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Your Name - Portfolio</title>
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #eee;
+            padding: 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
+
     <header>
         <h1>Your Name</h1>
-        <p>Web Developer</p>
-        <nav>
-            <ul>
-                <li><a href="about.html" target="content-frame">About Me</a></li>
-                <li><a href="skills.html" target="content-frame">Skills</a></li>
-                <li><a href="projects.html" target="content-frame">Projects</a></li>
-                <li><a href="certificates.html" target="content-frame">Certificates</a></li>
-                <li><a href="contact.html" target="content-frame">Contact</a></li>
-            </ul>
-        </nav>
+        <p>Student and Aspiring Programmer</p>
     </header>
 
-    <iframe id="content-frame" name="content-frame" src="about.html" frameborder="0"></iframe>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Brief introduction and educational background. Passion for programming and cybersecurity.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>List of programming languages, cybersecurity skills, and any soft skills.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Showcase your programming projects with brief descriptions and technologies used.</p>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <p>Display relevant certifications and mention the issuing organizations.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>LinkedIn: linkedin.com/yourprofile</p>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        &copy; 2024 Your Portfolio. All rights reserved.
     </footer>
+
 </body>
 </html>
