@@ -56,6 +56,10 @@ h1, h2 {
 
 .sam{
     color: rgb(42, 165, 89);
+
+}
+.sam_pic {
+    border-radius: 40px
 }
 .web{
     color: rgb(228, 2, 2);
@@ -108,3 +112,8 @@ iframe {
 /* .last{
     padding-bottom: 10%;
 } */
+
+.profile-pic {
+    display: flex;
+    justify-content:center;
+}
