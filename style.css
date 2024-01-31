@@ -56,11 +56,17 @@ h1, h2 {
 
 .sam{
     color: rgb(42, 165, 89);
+    display: flex;
+    align-items: center;
 
 }
-.sam_pic {
-    border-radius: 40px
-}
+
+
+    .sam_pic {
+        margin-right: 830px; /* Example spacing */
+        border-radius: 40px
+    }
+
 .web{
     color: rgb(228, 2, 2);
 }
@@ -116,4 +122,9 @@ iframe {
 .profile-pic {
     display: flex;
     justify-content:center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Vertically align image and text */
 }
